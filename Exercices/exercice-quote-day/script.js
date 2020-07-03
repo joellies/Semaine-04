@@ -14,7 +14,7 @@ const getRandomQuotes = () => {
 getRandomQuotes();
 
 function buttonListener() {
-  document.getElementById('container').addEventListener('click', () => {
+  document.getElementById('main-container').addEventListener('click', () => {
     getRandomQuotes();
   });
 }

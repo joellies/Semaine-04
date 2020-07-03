@@ -1,0 +1,56 @@
+body {
+  width: auto;
+  font-size: 18px;
+}
+
+.spotify {
+  color: #1db954;
+}
+
+.spotify:hover {
+  color: #0d4f24;
+  text-transform: uppercase;
+}
+
+.netflix {
+  color: #e50914;
+}
+.netflix:hover {
+  color: #a6070f;
+  text-transform: uppercase;
+}
+
+.facebook {
+  color: #4267b2;
+}
+.facebook:hover {
+  color: #1d2e4f;
+  text-transform: uppercase;
+}
+
+.slate {
+  color: #9c1473;
+}
+.slate:hover {
+  color: #4f0a3a;
+  text-transform: uppercase;
+}
+
+.instagram {
+  color: #dd2a7b;
+}
+.instagram:hover {
+  color: #a61f5c;
+  text-transform: uppercase;
+}
+
+a:nth-child(5) {
+  color: blue;
+}
+
+a::before {
+  content: '>';
+}
+a::after {
+  content: '<';
+}
