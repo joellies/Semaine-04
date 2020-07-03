@@ -3,6 +3,7 @@ body {
   font-size: 18px;
 }
 
+/*Liens*/
 .spotify {
   color: #1db954;
 }
@@ -36,16 +37,13 @@ body {
   text-transform: uppercase;
 }
 
-.instagram {
+li:nth-child(5) a {
   color: #dd2a7b;
 }
-.instagram:hover {
+
+li:nth-child(5) a:hover {
   color: #a61f5c;
   text-transform: uppercase;
-}
-
-a:nth-child(5) {
-  color: blue;
 }
 
 a::before {
@@ -53,4 +51,64 @@ a::before {
 }
 a::after {
   content: '<';
+}
+
+/*Tableau*/
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #a61f5c;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8c4ea;
+}
+
+tr:nth-child(even):hover {
+  background-color: #f8a3ea;
+}
+
+tr:nth-child(odd) {
+  background-color: #b08ba6;
+}
+
+tr:nth-child(odd):hover {
+  background-color: #b072a6;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #76a362;
+}
+
+/*Carré*/
+#square {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: #861782;
+  margin: 100px;
+  position: relative;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 10s;
+}
+
+@keyframes move {
+  0%  {background-color:#694A5D; left:0px; top:0px;}
+  25% {background-color:#CF469B; left:200px; top:0px;}
+  50% {background-color:#A6B5A5; left:200px; top:200px;}
+  75% {background-color:#566955; left:0px; top:200px;}
+  100%  { background-color:#8EF584; left:0px; top:0px;}
+}
+
+
+
 }
