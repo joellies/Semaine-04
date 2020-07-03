@@ -1,24 +1,17 @@
 body {
   width: auto;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   font-size: 18px;
   font-family: 'raleway'; sans serif;
-
 }
 
 /*Structure*/
 
-#header {
-  display:grid;
-
-}
-#main-container{
-  display:grid;
-
-}
-
 #footer {
-  display:grid;
+  display: flex;
+  clear: both;
 
 }
 
@@ -31,4 +24,16 @@ h1,
 
 #quotes {
   font-size: 1.5em;
+  width: fit-content;
+  transition:1.5s;
+}
+
+#quotes:hover{
+  background-color:#8ef584;
+  width:fit-content;
+}
+
+#author {
+  background-color:#F584CA;
+  width: fit-content;
 }
