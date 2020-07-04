@@ -25,15 +25,26 @@ h1,
 #quotes {
   font-size: 1.5em;
   width: fit-content;
-  transition:1.5s;
+  transition:2s;
+
 }
 
 #quotes:hover{
-  background-color:#8ef584;
+  background-color:#F5CEF3;
   width:fit-content;
+  transform:scaleY(1.2) translateX(20px);
+  text-decoration: underline;
+
 }
 
 #author {
   background-color:#F584CA;
   width: fit-content;
+  transition:2s;
+}
+
+#author:hover {
+  background-color:#F5CEF3;
+  width:fit-content;
+  transform:scaleY(1.2) translateX(20px);
 }
